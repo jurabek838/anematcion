@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-size: cover;
+    background-image: url("../images/photo_2024-01-08_10-38-00.jpg");
+
+}
+
+.card {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border: 2px solid gold;
+    border-radius: 10px;
+    top: 74px;
+    left: 60px;
+    position: absolute;
+    animation-name: card;
+    animation-duration: 10s;
+
+}
+
+@keyframes card {
+    0% {
+        top: 74px;
+        left: 60px;
+        
+    }
+    10% {
+        top: 74px;
+        left: 340px;
+       
+    }
+    20%{
+        top: 360px;
+        left: 330px;
+        background-color: blue;
+    }
+    30%{
+        top: 360px;
+        left: 1010px;
+        background-color: gold;
+
+    }
+    40%{
+        top: 520px;
+        left: 1000px;
+        background-color: gold;
+
+    }
+    50%{
+        top: 530px;
+        left: 620px;
+        background-color: gold;
+
+    }
+    60%{
+        top: 460px;
+        left: 620px;
+        background-color:hotpink;
+
+    }
+    70%{
+        top: 460px;
+        left: 340px;
+        background-color: rgb(0, 255, 106);
+
+    }
+    80%{
+        top: 340px;
+        left: 180px;
+        background-color: rgb(62, 11, 75);
+
+    }
+    90%{
+        top: 340px;
+        left: 61px;
+        background-color: rgb(0, 255, 234);
+
+    }
+    100%{
+        top: 75px;
+        left: 61px;
+        background-color: rgb(255, 0, 119);
+
+    }
+}
